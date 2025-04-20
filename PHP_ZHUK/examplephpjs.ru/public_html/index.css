@@ -1,0 +1,30 @@
+.input-wrapper {
+  width: 400px;
+  margin-bottom: 20px; /* одинаковый отступ между блоками */
+  margin-left: 20px;
+}
+
+.button {
+  margin-top: 10px; /* отступ сверху от input */
+  background-color: white; /* белый фон */
+  color: black; /* чёрный текст */
+  border: 1px solid #ccc; /* светло-серая рамка */
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.total-cost {
+  text-align: right; /* выравнивание по правому краю */
+  font-size: 1rem; /* уменьшенный шрифт, можно 0.9rem или даже 14px */
+  margin-right: 20px; /* небольшой отступ справа */
+}
+.total-costs {
+  font-size: 1rem; /* уменьшенный шрифт, можно 0.9rem или даже 14px */
+  margin-left: 20px; /* небольшой отступ справа */
+}
+.border {
+  width: 50%; /* ширина по содержимому */
+  margin-left: 20px; /* отступ слева */
+  margin-right: 0;
+}
